@@ -15,6 +15,7 @@ public class Main {
         String name = in.next();
         if (name.equals("Вячеслав")){
             System.out.println("Привет, Вячеслав!");
+
         } else{
             System.out.println("Нет такого имени!");
         }
@@ -24,7 +25,9 @@ public class Main {
             if (number == 3){
                 System.out.println(number);
             }
+            /* Четвертое задание
+            Нет, неправильно. 1 лишняя квадратная скобка, не хватает 1 круглой скобки. Для правильности нужно привести к виду: [((())()(()))]
+             */
         }
-
     }
 }
