@@ -2,8 +2,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //Первое задание
         Scanner in = new Scanner(System.in);
+
+        //Первое задание
         System.out.print("Введите число: ");
         int num = in.nextInt();
 
@@ -25,9 +26,10 @@ public class Main {
             if (number == 3){
                 System.out.println(number);
             }
-            /* Четвертое задание
+        }
+
+        /* Четвертое задание
             Нет, неправильно. 1 лишняя квадратная скобка, не хватает 1 круглой скобки. Для правильности нужно привести к виду: [((())()(()))]
              */
-        }
     }
 }
